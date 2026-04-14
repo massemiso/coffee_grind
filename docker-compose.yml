@@ -1,0 +1,28 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: coffee-db
+    environment:
+      - POSTGRES_USER=spring_user
+      - POSTGRES_PASSWORD=coffee_pass
+      - POSTGRES_DB=roastery_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    container_name: coffee-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      # We use the service name 'db' instead of 'localhost' to connect
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/roastery_db
+      - SPRING_DATASOURCE_USERNAME=spring_user
+      - SPRING_DATASOURCE_PASSWORD=coffee_pass
+
+volumes:
+  postgres_data:

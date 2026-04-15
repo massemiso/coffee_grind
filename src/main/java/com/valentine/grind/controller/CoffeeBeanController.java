@@ -1,10 +1,10 @@
-package com.valentine.daily_grind.controller;
+package com.valentine.grind.controller;
 
-import com.valentine.daily_grind.dto.ApiResponse;
-import com.valentine.daily_grind.dto.CoffeeBeanRequestDto;
-import com.valentine.daily_grind.dto.CoffeeBeanResponseDto;
-import com.valentine.daily_grind.model.RoastLevel;
-import com.valentine.daily_grind.service.CoffeeBeanService;
+import com.valentine.grind.dto.ApiResponse;
+import com.valentine.grind.dto.CoffeeBeanRequestDto;
+import com.valentine.grind.dto.CoffeeBeanResponseDto;
+import com.valentine.grind.model.RoastLevel;
+import com.valentine.grind.service.CoffeeBeanService;
 import jakarta.validation.Valid;
 import java.net.URI;
 import org.springframework.beans.factory.annotation.Autowired;

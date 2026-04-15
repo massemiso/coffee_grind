@@ -1,4 +1,4 @@
-package com.valentine.daily_grind.exception;
+package com.valentine.grind.exception;
 
 public class RoasterNotFoundException extends RuntimeException {
 

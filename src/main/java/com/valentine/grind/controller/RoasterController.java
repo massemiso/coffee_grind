@@ -1,9 +1,9 @@
-package com.valentine.daily_grind.controller;
+package com.valentine.grind.controller;
 
-import com.valentine.daily_grind.dto.ApiResponse;
-import com.valentine.daily_grind.dto.RoasterRequestDto;
-import com.valentine.daily_grind.dto.RoasterResponseDto;
-import com.valentine.daily_grind.service.RoasterService;
+import com.valentine.grind.dto.ApiResponse;
+import com.valentine.grind.dto.RoasterRequestDto;
+import com.valentine.grind.dto.RoasterResponseDto;
+import com.valentine.grind.service.RoasterService;
 import jakarta.validation.Valid;
 import java.net.URI;
 import org.springframework.beans.factory.annotation.Autowired;

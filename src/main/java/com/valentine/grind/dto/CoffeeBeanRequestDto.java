@@ -1,4 +1,4 @@
-package com.valentine.daily_grind.dto;
+package com.valentine.grind.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

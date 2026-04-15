@@ -1,6 +1,6 @@
-package com.valentine.daily_grind.exception;
+package com.valentine.grind.exception;
 
-import com.valentine.daily_grind.dto.ApiResponse;
+import com.valentine.grind.dto.ApiResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.util.HashMap;

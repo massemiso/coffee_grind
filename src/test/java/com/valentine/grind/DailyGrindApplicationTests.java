@@ -1,4 +1,4 @@
-package com.valentine.daily_grind;
+package com.valentine.grind;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

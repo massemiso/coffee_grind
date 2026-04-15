@@ -1,13 +1,13 @@
-package com.valentine.daily_grind;
+package com.valentine.grind;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DailyGrindApplication {
+public class CoffeeGrindApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DailyGrindApplication.class, args);
+		SpringApplication.run(CoffeeGrindApplication.class, args);
 	}
 
 }

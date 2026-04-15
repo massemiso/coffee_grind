@@ -1,6 +1,6 @@
-package com.valentine.daily_grind.repository;
+package com.valentine.grind.repository;
 
-import com.valentine.daily_grind.model.Roaster;
+import com.valentine.grind.model.Roaster;
 import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

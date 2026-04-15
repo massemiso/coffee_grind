@@ -1,4 +1,4 @@
-package com.valentine.daily_grind.model;
+package com.valentine.grind.model;
 
 public enum RoastLevel {
   LIGHT,

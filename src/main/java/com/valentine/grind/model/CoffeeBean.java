@@ -1,4 +1,4 @@
-package com.valentine.daily_grind.model;
+package com.valentine.grind.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

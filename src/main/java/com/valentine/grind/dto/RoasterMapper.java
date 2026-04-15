@@ -1,6 +1,6 @@
-package com.valentine.daily_grind.dto;
+package com.valentine.grind.dto;
 
-import com.valentine.daily_grind.model.Roaster;
+import com.valentine.grind.model.Roaster;
 import org.springframework.stereotype.Component;
 
 @Component

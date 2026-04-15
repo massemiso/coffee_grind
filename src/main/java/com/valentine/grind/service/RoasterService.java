@@ -1,11 +1,11 @@
-package com.valentine.daily_grind.service;
+package com.valentine.grind.service;
 
-import com.valentine.daily_grind.dto.RoasterMapper;
-import com.valentine.daily_grind.dto.RoasterRequestDto;
-import com.valentine.daily_grind.dto.RoasterResponseDto;
-import com.valentine.daily_grind.exception.RoasterNotFoundException;
-import com.valentine.daily_grind.model.Roaster;
-import com.valentine.daily_grind.repository.RoasterRepository;
+import com.valentine.grind.dto.RoasterMapper;
+import com.valentine.grind.dto.RoasterRequestDto;
+import com.valentine.grind.dto.RoasterResponseDto;
+import com.valentine.grind.exception.RoasterNotFoundException;
+import com.valentine.grind.model.Roaster;
+import com.valentine.grind.repository.RoasterRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

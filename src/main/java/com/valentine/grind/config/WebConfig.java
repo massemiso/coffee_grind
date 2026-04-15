@@ -1,4 +1,4 @@
-package com.valentine.daily_grind.config;
+package com.valentine.grind.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.web.config.EnableSpringDataWebSupport;

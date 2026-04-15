@@ -1,4 +1,4 @@
-package com.valentine.daily_grind.dto;
+package com.valentine.grind.dto;
 
 public record RoasterResponseDto(
     Long id,

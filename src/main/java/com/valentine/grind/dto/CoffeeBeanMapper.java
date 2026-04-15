@@ -1,9 +1,8 @@
-package com.valentine.daily_grind.dto;
+package com.valentine.grind.dto;
 
-import com.valentine.daily_grind.model.CoffeeBean;
-import com.valentine.daily_grind.model.RoastLevel;
-import com.valentine.daily_grind.model.Roaster;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.valentine.grind.model.CoffeeBean;
+import com.valentine.grind.model.RoastLevel;
+import com.valentine.grind.model.Roaster;
 import org.springframework.stereotype.Component;
 
 @Component

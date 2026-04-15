@@ -1,7 +1,7 @@
-package com.valentine.daily_grind.repository;
+package com.valentine.grind.repository;
 
-import com.valentine.daily_grind.model.CoffeeBean;
-import com.valentine.daily_grind.model.RoastLevel;
+import com.valentine.grind.model.CoffeeBean;
+import com.valentine.grind.model.RoastLevel;
 import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

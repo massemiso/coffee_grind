@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 public record CoffeeBeanRequestDto(
     @NotBlank String name,
     @NotBlank String origin,
-    @NotNull(message = "Roast level is required") String roastLevel,
+    @NotBlank(message = "Roast level is required") String roastLevel,
     @NotNull @Min(0) BigDecimal pricePerKg,
     @NotNull @Min(0) Integer stockQuantity,
     @NotNull Long roasterId
